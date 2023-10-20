@@ -34,13 +34,13 @@ Essa aplicação contará com uma área de login, para identificação tanto do 
 
 ## Como executar:
 Clone o projeto e acesse a pasta
-~~~ terminal
+~~~ sh
 $ git clone https://github.com/pmor4is/letmeask
 $ cd letmeask
 ~~~
 
 Para iniciar, insira os comandos abaixo
-~~~ terminal
+~~~ sh
 # instalação das dependências
 $ yarn
 # inicialização do projeto
