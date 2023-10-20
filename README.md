@@ -1,53 +1,46 @@
-<div align="center">
+# Getting Started with Create React App
 
-# :rocket: letmeask
-Projeto desenvolvido pela Rocketseat, no evento NLW#6, para o ensino de tecnologias Web
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-[Tecnologias](#tecnologias)
-[Como executar](#como-executar)
-[Layout](#layout)
+## Available Scripts
 
-</div>
+In the project directory, you can run:
 
-## Projeto
-O projeto é uma aplicação para criadores de conteúdos poderem criar salas de Q&A com o seu público, de uma forma muito organizada e democrática.
+### `yarn start`
 
-Essa aplicação contará com uma área de login, para identificação tanto do administrador para criar a sala, como para outros usuários utlizarem a sala e enviarem sua pergunta. Para entrar em uma sala criada, é necessário um código de identificação dessa sala. 
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-#### Funcionalidades do administrador da sala de perguntas:
-* Visualizar todas as perguntas 
-* Definir uma pergunta como destaque, caso ela possua maior relevância
-* Responder as perguntas individualmente
-* Deletar uma pergunta
-* Compartilhar o código da sala
-* Encerrar a sala
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-### Funcionalidades do usuário da sala de perguntas: 
-* Área para inserir sua pergunta e enviar para a sala
-* Visualizar as perguntas da sala, podendo curtir perguntas que sejam de maior relevância.
+### `yarn test`
 
-Este é um projeto desenvolvido durante a [Next Level Week Together](https://www.rocketseat.com.br/nlw), apresentada dos dias 20 a 27 de Junho de 2021.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
+### `yarn build`
 
-## Tecnologias: 
-* [React](https://react.dev/)
-* [TypeScript](https://firebase.google.com/?hl=pt-br)
-* [Firebase](https://www.typescriptlang.org/)
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-## Como executar:
-Clone o projeto e acesse a pasta
-~~~ shell
-$ git clone https://github.com/pmor4is/letmeask
-$ cd letmeask
-~~~
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-Para iniciar, insira os comandos abaixo
-~~~ shell
-# instalação das dependências
-$ yarn
-# inicialização do projeto
-$ yarn start
-~~~
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## Layout 
-O design desse projeto pode ser visualizado através deste [link para o Figma](https://www.figma.com/file/hNl3mDhH9Jz01yQ91QTHjl/Letmeask-(Community)?type=design&node-id=0-1&mode=design&t=mUpL9L6JYTG2W5z3-0). É necessário uma conta para poder visualizar.
+### `yarn eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
