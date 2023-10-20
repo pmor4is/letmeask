@@ -3,9 +3,14 @@
 # :rocket: letmeask
 Projeto desenvolvido pela Rocketseat, no evento NLW#6, para o ensino de tecnologias Web
 
+![let me ask](/.github/logo.svg "let me ask")
+![app image](.github/cover.svg "app image")
+
 [Tecnologias](#tecnologias)
 [Como executar](#como-executar)
 [Layout](#layout)
+
+
 
 </div>
 
