@@ -10,7 +10,7 @@ Projeto desenvolvido pela Rocketseat, no evento NLW#6, para o ensino de tecnolog
 </div>
 
 ## Projeto
-O projeto é uma aplicação que consiste em criar salas sobre temas específicos definidos pelo administrador da sala, para responder perguntas de outros usuários sobre esse tema. 
+O projeto é uma aplicação para criadores de conteúdos poderem criar salas de Q&A com o seu público, de uma forma muito organizada e democrática.
 
 Essa aplicação contará com uma área de login, para identificação tanto do administrador para criar a sala, como para outros usuários utlizarem a sala e enviarem sua pergunta. Para entrar em uma sala criada, é necessário um código de identificação dessa sala. 
 
@@ -26,6 +26,8 @@ Essa aplicação contará com uma área de login, para identificação tanto do 
 * Área para inserir sua pergunta e enviar para a sala
 * Visualizar as perguntas da sala, podendo curtir perguntas que sejam de maior relevância.
 
+Este é um projeto desenvolvido durante a [Next Level Week Together](https://www.rocketseat.com.br/nlw), apresentada dos dias 20 a 27 de Junho de 2021.
+
 
 ## Tecnologias: 
 * [React](https://react.dev/)
@@ -34,13 +36,13 @@ Essa aplicação contará com uma área de login, para identificação tanto do 
 
 ## Como executar:
 Clone o projeto e acesse a pasta
-~~~ sh
+~~~ shell
 $ git clone https://github.com/pmor4is/letmeask
 $ cd letmeask
 ~~~
 
 Para iniciar, insira os comandos abaixo
-~~~ sh
+~~~ shell
 # instalação das dependências
 $ yarn
 # inicialização do projeto
