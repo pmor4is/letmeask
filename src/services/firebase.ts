@@ -4,7 +4,8 @@ import firebase from 'firebase/compat/app';
 import 'firebase/auth';
 import 'firebase/database'
 
-//Importado do serviço de configuração do Firebase
+// Importado do serviço de configuração do Firebase
+// Variaveis declaradas no .env.local. 
 const firebaseConfig = {
     apiKey: process.env.REACT_APP_API_KEY,
     authDomain: process.env.REACT_APP_AUTH_DOMAIN,
