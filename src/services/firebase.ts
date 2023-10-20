@@ -1,8 +1,8 @@
 // Import dos serviços do firebase
 import firebase from 'firebase/compat/app';
 // Import dos serviços que realmente serão utilizados
-import 'firebase/auth';
-import 'firebase/database'
+import 'firebase/compat/auth';
+import 'firebase/compat/database'
 
 // Importado do serviço de configuração do Firebase
 // Variaveis declaradas no .env.local. 

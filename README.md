@@ -56,3 +56,7 @@ $ yarn start
 
 ## Layout 
 O design desse projeto pode ser visualizado através deste [link para o Figma](https://www.figma.com/file/hNl3mDhH9Jz01yQ91QTHjl/Letmeask-(Community)?type=design&node-id=0-1&mode=design&t=mUpL9L6JYTG2W5z3-0). É necessário uma conta para poder visualizar.
+
+## Materiais complementares
+O link para o material utilizado para a construção do aplicativo pode ser visualizado no link abaixo:
+* [Notion](https://efficient-sloth-d85.notion.site/Mission-ReactJS-f01ae1ba0f8148ad8f1defbf990be484)
