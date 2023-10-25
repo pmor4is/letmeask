@@ -1,13 +1,15 @@
+import { Link } from "react-router-dom";
+
 import illustrationImg from '../assets/images/illustration.svg'
 import logoImg from '../assets/images/logo.svg'
 
-import '../styles/auth.scss'
 import {Button} from '../components/Button'
-import { Link } from "react-router-dom";
+import '../styles/auth.scss'
 
 
 // Todo componente deve estar com a letra inicial em maísculo. Toda tag HTML é em minúsculo. Ao colocar maiúsculo na primeira letra,o React entende que é um componente.
 export function NewRoom() {
+
     return (
         <div id="page-auth">
             <aside>

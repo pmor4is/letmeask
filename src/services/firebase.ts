@@ -21,3 +21,5 @@ firebase.initializeApp(firebaseConfig);
 // Definição de constantes para os recursos para o auth e database
 const auth = firebase.auth();
 const database = firebase.database();
+
+export {firebase, auth, database}

@@ -1,18 +1,22 @@
+
 // Variaveis JavaScript para imagens
 import illustrationImg from '../assets/images/illustration.svg'
 import logoImg from '../assets/images/logo.svg'
 import googleIconImg from '../assets/images/google-icon.svg'
 
 import '../styles/auth.scss'
-import {Button} from '../components/Button'
+import { Button } from '../components/Button'
 import { useNavigate } from 'react-router-dom'
+import { firebase, auth } from '../services/firebase'
+
 
 // Todo componente deve estar com a letra inicial em maísculo. Toda tag HTML é em minúsculo. Ao colocar maiúsculo na primeira letra,o React entende que é um componente.
 export function Home() {
     //Toda função que começa com use, é chamada de Hook e ele deve estar dentro do componente.
     const navigate = useNavigate();
 
-    function navigateToNewRoom() {
+
+    function handleCreateRoom() {
         navigate('/rooms/new');
     }
 
@@ -30,13 +34,13 @@ export function Home() {
                 <div className='main-content'>
                     <img src={logoImg} alt='Let me ask' />
 
-                    <button className='create-room' onClick={navigateToNewRoom}>
+                    <button className='create-room' onClick={handleCreateRoom}>
                         <img src={googleIconImg} alt="Logo do Google" />
                         Crie sua sala com o Google
                     </button>
-                    
+
                     <div className='separator'>ou entre em uma sala</div>
-                    
+
                     <form>
                         <input type="text" placeholder="Digite o código da sala" />
                         <Button type="submit">Entrar na sala</Button>
